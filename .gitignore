@@ -90,6 +90,8 @@ ENV/
 env.bak/
 venv.bak/
 
+evm-runner/node_modules/
+
 # Spyder project settings
 .spyderproject
 .spyproject

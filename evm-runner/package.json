@@ -1,0 +1,30 @@
+{
+  "name": "evm-ast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": " cross-env DEBUG=ethjs,evm:ops:* node app.js"
+  },
+  "keywords": [],
+  "author": "shaokun",
+  "license": "ISC",
+  "dependencies": {
+    "@acuarica/evm": "^0.0.11",
+    "@ethereumjs/blockchain": "^7.0.0",
+    "@ethereumjs/common": "^4.0.0",
+    "@ethereumjs/evm": "^2.0.0",
+    "@ethereumjs/statemanager": "^2.0.0",
+    "@ethereumjs/util": "^9.0.0",
+    "@ethereumjs/vm": "^7.0.0",
+    "@ethersproject/abi": "^5.0.12",
+    "bs58": "^5.0.0",
+    "buffer": "^6.0.3",
+    "cross-env": "^7.0.3",
+    "ethers": "^6.7.1",
+    "solc": "^0.8.21",
+    "solc-typed-ast": "^16.0.0",
+    "web3": "^4.1.1"
+  }
+}
